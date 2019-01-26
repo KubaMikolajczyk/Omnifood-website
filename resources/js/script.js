@@ -62,4 +62,34 @@ $(document).ready(function() {
         offset: '50%'
     });
     
+    /* Mobile nav Animation */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon= $('.js--nav-icon ion-icon');
+        nav.slideToggle(200);
+        
+        if (icon.attr("name") === 'menu') {
+                    icon.attr("name", 'close');
+                } else {
+                    icon.attr("name", 'menu');
+                }
+    /* Window resizing and nav display */
+        $(window).resize(function(){
+
+            if ($(window).width() > 767){
+                nav.css("display", "block");
+            } 
+            else {
+                nav.css("display", "none");
+                icon.attr("name", 'menu')
+            }
+        });
+    });
+        
+        
+       
+        
+        
+    
+    
 });
