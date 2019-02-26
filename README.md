@@ -1,6 +1,6 @@
 # Omnifood website
 
-One page website created for fake food delivery company.
+One page fully responsive website created for fake food delivery company.
 Website hosted on my server -> http://fineparadigm.com/omnifood/
 
 Created using Html, Css and JQuerry.
