@@ -5,4 +5,4 @@ Website hosted on my server -> http://fineparadigm.com/omnifood/
 
 Created using Html, Css and JQuerry.
 
-![omnifood1](https://raw.githubusercontent.com/KubaMikolajczyk/Omnifood-website/master/resources/images/heropage_img.jpg)
+![omnifood1](https://raw.githubusercontent.com/KubaMikolajczyk/Omnifood-website/master/resources/images/heropage_img.PNG)
